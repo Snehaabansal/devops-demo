@@ -1,0 +1,42 @@
+root component or bootstrap component from where it starts or it is the
+first component contained by app component.
+module is a  group of components
+main.ts search for module
+index.html runs the component that page will be load in the browser ,only one component at a time it run tht's why spa
+main.ts entry point like main function in program
+main.ts which module to run
+app module contains bootstrap module
+in our project we will not make user module we use app module
+in big application we have many modules
+atleast one module one component minimum is required for the application
+by default we can use root module or we can make user modules
+client application can call any api's so angular is not much related to server.
+
+we can directly write app home in place of app root to run it in index html and bootstrap = home componenet  in place of app componentbut this is not a gud idea
+for template we do not use single code we use back tick ` (present above with tilde sign)
+styles and stylesUrls use array for it since it is plural
+bootstrap take only one component at a time
+
+ng g c sample -it -is --skip-tests
+to create component with inline style and inline template (second method to do so)
+
+------------Data binding---------------------------------------------------
+using double {{}} one way binding  changes in component(ts file) will be visible in view(html )but not viceversa.
+in interpolation (one way binding) data is converted as string
+-------------------------------------------------------
+https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ
+https://www.c-sharpcorner.com/article/learn-angular-8-step-by-step-in-10-days-day-1/
+link to study angular
+
+
+
+
+
+
+
+ng serve for running server in diff cmd
+in another cmd:-after going inside firstApp folder using cd firstApp
+ng g c home
+ng g c login
+ng g c login --skipTests to skip test file which we dont need
+ctrl+c terminate the job press yes to compile again to refresh  the page and ng serve again
